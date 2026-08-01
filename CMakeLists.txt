@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/vulkan_base/vulkan_device.cpp)
 
 # 1. Force SDL3 to build statically before adding its directory
 set(SDL_STATIC ON CACHE BOOL "" FORCE)
